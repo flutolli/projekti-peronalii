@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Nike Shoes</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Navbar Styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        
+        nav a:hover {
+            color: #f0a500;
+        }
+        
+        /* Nike Shoes Section */
+        .shoe-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        .shoe-item {
+            text-align: center;
+            max-width: 200px; /* Adjusted for larger images */
+        }
+        
+        .shoe-item img {
+            width: 150px; /* Increase the width for larger images */
+            height: auto;
+        }
+        
+        .price {
+            font-size: 18px;
+            color: #333;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Nike Shoes Display on Home Page -->
+    <div class="shoe-section">
+        <!-- Nike Shoe Item 1 -->
+        <div class="shoe-item">
+            <img src="Nikeshoes1.jpg" alt="Nike Shoe 1">
+            <p>Nike Air Max</p>
+            <p class="price">$120</p>
+        </div>
+        
+        <!-- Nike Shoe Item 2 -->
+        <div class="shoe-item">
+            <img src="nikeshoes2.jpg" alt="Nike Shoe 2">
+            <p>Nike Zoom Fly</p>
+            <p class="price">$150</p>
+        </div>
+
+        <!-- Nike Shoe Item 3 -->
+        <div class="shoe-item">
+            <img src="Nikeshoes3.jpg" alt="Nike Shoe 3">
+            <p>Nike React</p>
+            <p class="price">$130</p>
+        </div>
+
+        <!-- Nike Shoe Item 4 -->
+        <div class="shoe-item">
+            <img src="Nikeshoes4.jpg" alt="Nike Shoe 4">
+            <p>Nike Air Force 1</p>
+            <p class="price">$110</p>
+        </div>
+
+        <!-- Nike Shoe Item 5 -->
+        <div class="shoe-item">
+            <img src="Nkeshoes5.jpg" alt="Nike Shoe 5">
+            <p>Nike Pegasus</p>
+            <p class="price">$100</p>
+        </div>
+    </div>
+
+</body>
+</html>
